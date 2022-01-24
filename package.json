@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "concurrently \"npm run build --prefix client\" \"nodemon index.js\"",
     "start": "node index.js",
-    "prod": "npm run prod --prefix client"
+    "prod": "npm run prod --prefix client",
+    "build": "npm run prod --prefix client"
   },
   "repository": {
     "type": "git",
