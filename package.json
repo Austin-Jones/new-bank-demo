@@ -7,11 +7,11 @@
     "dev": "concurrently \"npm run build --prefix client\" \"nodemon index.js\"",
     "start": "node index.js",
     "prod": "npm run prod --prefix client",
-    "build": "npm run prod --prefix client"
+    "build": "npm i --prefix client && npm run prod --prefix client"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codingjlu/express-react-template.git"
+    "url": "https://github.com/Austin-Jones/new-bank-demo"
   },
   "keywords": [
     "express",
@@ -28,6 +28,9 @@
   },
   "homepage": "https://github.com/codingjlu/express-react-template#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
     "body-parser": "^1.19.1",
     "dotenv": "^14.3.0",
     "express": "^4.17.2",
