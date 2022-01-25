@@ -14,8 +14,6 @@
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.8",
     "@babel/preset-react": "^7.16.7",
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@svgr/webpack": "^6.2.0",
     "babel-loader": "^8.2.3",
     "express-react-template": "file:..",

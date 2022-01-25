@@ -6,8 +6,6 @@ import SsnInput from "../components/ssn";
 import DateInput from "../components/date";
 import EmailInput from "../components/emailInput";
 import PhoneInput from "../components/phoneInput";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheck } from '@fortawesome/free-solid-svg-icons'
 /*
  To prevent continue of slides until all inputs are complete, usestate is given into inputs as a prop, using it as a callback function
  this gives the ability to read state outside of the component without redux.
@@ -203,7 +201,7 @@ function Home() {
                 count > 0 && <button onClick={prev}>Previous</button>
               }
               {
-                count < 2 ? <button onClick={next} className="right">Next</button> : <button onClick={next} className="right submit" onClick={next}>Join <FontAwesomeIcon icon={faCheck} /></button>
+                count < 2 ? <button onClick={next} className="right">Next</button> : <button onClick={next} className="right submit" onClick={next}>Join</button>
               }
 
             </div>
