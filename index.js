@@ -46,7 +46,11 @@ app.post("/api/onboard", (req, res) => {
 app.get("*", (req, res) => {
   res.sendFile(path.join(public, "index.html"));
 });
-
-app.listen(3000, function () {
-  console.log('Server started on http://localhost:3000.');
-});
+const PORT = process.env.PORT || 3000
+app.listen(
+  PORT,
+  '0.0.0.0',
+  function () {
+    console.log("Server started.......");
+  }
+);
