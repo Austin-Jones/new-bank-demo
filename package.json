@@ -1,7 +1,7 @@
 {
   "name": "express-react-template",
   "version": "1.0.0",
-  "description": "Express and React template",
+  "description": "Alloy onboarding",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run build --prefix client\" \"nodemon index.js\"",
