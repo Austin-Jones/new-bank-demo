@@ -21,7 +21,7 @@ function CharInput({ placeholder, callBack, error, msg }) {
     }
     return (
         <div className="input-wrapper pl pr">
-            <input className='input-control' placeholder={placeholder} value={value} onChange={e => update(e)} onBlur={e => validate(e.target.value)} type="tel" maxLength="2" />
+            <input className='input-control' placeholder={placeholder} value={value} onChange={e => update(e)} onBlur={e => validate(e.target.value)} maxLength="2" />
             <p className={'error ' + error}>{msg}</p>
         </div>
     );
