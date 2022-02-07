@@ -175,12 +175,6 @@ button.submit {
     padding: 0;
     padding-top: .2rem;
 }
-.pl {
-    padding-left: 5px;
-}
-.pr {
-    padding-right: 5px;
-}
 
 .blob-loader {
     position: relative;
